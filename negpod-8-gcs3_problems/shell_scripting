@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+FILE="gcs_3_problems_20221110"
+if [ -f "$FILE" ]; then
+    if [ -s $FILE ]; then
+        echo "0"
+    else
+        echo "1"
+    fi
+else
+   echo "2"
+fi
